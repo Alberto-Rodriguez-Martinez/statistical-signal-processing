@@ -1,0 +1,32 @@
+{
+  "seed": 1234,
+  "n": 600,
+  "files": {
+    "A": "darts_data_means\\darts_A.csv",
+    "B": "darts_data_means\\darts_B.csv",
+    "C": "darts_data_means\\darts_C.csv"
+  },
+  "params": {
+    "A": {
+      "type": "gaussian_independent",
+      "mu_x": 10,
+      "mu_y": 5,
+      "sigma_x": 20,
+      "sigma_y": 20
+    },
+    "B": {
+      "type": "gaussian_correlated",
+      "mu_x": -8,
+      "mu_y": -12,
+      "sigma": 15,
+      "rho": 0.8
+    },
+    "C": {
+      "type": "laplace_heavy_tails",
+      "mu_x": 0,
+      "mu_y": 15,
+      "b_x": 10,
+      "b_y": 10
+    }
+  }
+}

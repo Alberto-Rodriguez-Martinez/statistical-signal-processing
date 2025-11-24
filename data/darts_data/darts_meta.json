@@ -1,0 +1,26 @@
+{
+  "seed": 1234,
+  "n": 600,
+  "files": {
+    "A": "darts_data\\darts_A.csv",
+    "B": "darts_data\\darts_B.csv",
+    "C": "darts_data\\darts_C.csv"
+  },
+  "params": {
+    "A": {
+      "type": "gaussian_independent",
+      "sigma_x": 20,
+      "sigma_y": 20
+    },
+    "B": {
+      "type": "gaussian_correlated",
+      "sigma": 15,
+      "rho": 0.8
+    },
+    "C": {
+      "type": "laplace_heavy_tails",
+      "b_x": 10,
+      "b_y": 10
+    }
+  }
+}
