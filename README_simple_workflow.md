@@ -11,7 +11,7 @@ What I (instructor) did
 - Each notebook should include a small top code cell that:
   - makes `codigo` importable in Binder and local sessions, and
   - in Google Colab it automatically fetches the latest `codigo/` from GitHub for the session.
-- This keeps things simple for students: they don't need to use git or installs to read/run the helper code.
+- This keeps things simple for students: you don't need to use git or installs to read/run the helper code.
 
 How to run notebooks (pick one)
 
