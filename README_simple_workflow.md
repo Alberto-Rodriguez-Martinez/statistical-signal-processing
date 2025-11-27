@@ -15,12 +15,12 @@ What I (instructor) did
 
 How to run notebooks (pick one)
 
-1) Binder (recommended for live class, zero installs)
+1) Binder (recommended for live class, zero installs)  [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Alberto-Rodriguez-Martinez/statistical-signal-processing/HEAD)
 - Click the Binder badge in the repo README (or use the Badge link provided in the repo).
 - Open a notebook and run cells. The first cell ensures `codigo` is importable.
 - New Binder sessions pick up the newest code automatically after I push changes.
 
-2) Google Colab (recommended if you want to save to Drive)
+2) Google Colab (recommended if you want to save to Drive)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alberto-Rodriguez-Martinez/statistical-signal-processing) 
 - Open Colab and use the GitHub tab, or use this link to browse the repo in Colab:
   https://colab.research.google.com/github/Alberto-Rodriguez-Martinez/statistical-signal-processing
 - If a notebook is opened in Colab, run the first code cell (it will fetch the latest `codigo/` automatically).
