@@ -1,0 +1,15 @@
+# Add this when using colab in the first code cell.
+# This will ensure that you have acces to folder in the gihub repository.
+
+!git clone https://github.com/Alberto-Rodriguez-Martinez/statistical-signal-processing.git
+%cd statistical-signal-processing
+!ls -R
+
+
+from pathlib import Path
+import sys
+
+repo_root = Path.cwd()     # ahora sí
+sys.path.append(str(repo_root))
+
+import codigo.dartslab as dl
