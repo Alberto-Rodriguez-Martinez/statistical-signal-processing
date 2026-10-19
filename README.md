@@ -51,3 +51,21 @@ Continuous-time detection problems are illustrated with practical waveform examp
 
 The notebooks introduce classification from a signal-processing perspective. Topics include discriminant functions, decision boundaries, linear classifiers, and connections with statistical learning.
 
+## License
+
+This repository contains open educational resources developed for teaching Statistical Signal Processing at Miguel Hernández University of Elche (Spain).
+
+The materials are distributed under two complementary licenses:
+
+Educational content: Original theoretical explanations, instructional text, figures, diagrams, and other non-code educational materials are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Source code: Python scripts, algorithms, reusable software modules, and executable code cells in Jupyter notebooks are licensed under the MIT License.
+
+Jupyter notebooks contain both educational text and executable code. The corresponding license applies to each component.
+
+Third-party materials, including externally sourced datasets and figures, retain their original copyright and licensing conditions unless explicitly stated otherwise.
+
+Author: Alberto Rodríguez Martínez
+Institution: Miguel Hernández University of Elche, Spain.
+
+Users are encouraged to reuse, adapt, and redistribute these resources in teaching, learning, and research, subject to the applicable license conditions and appropriate attribution.
